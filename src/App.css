@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3f3f3f;
+  color: #ffff;
+}
+main {
+  margin: 20px auto;
+  max-width: 300px;
+}
+.button {
+  background-color: #5255f7;
+  border-radius: 10px;
+  border-color: #5255f7;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.button:hover,
+.button:active {
+  background: #5255f7;
+  border-color: #6949f7;
+}
+
+.button:focus {
+  outline: none;
+}

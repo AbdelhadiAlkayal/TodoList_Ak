@@ -1,0 +1,26 @@
+.tasks {
+  margin-top: 9px;
+  padding: 5px;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 10px;
+}
+.check {
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.complete {
+  text-decoration-line: line-through;
+  color: red;
+}
+.removeButton {
+  float: right;
+  margin-top: 2px;
+  width: 30px;
+  height: 20px;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
